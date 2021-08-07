@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brígida Joias
 
-## Getting Started
+<p align="center">
 
-First, run the development server:
+<img src="https://user-images.githubusercontent.com/56811005/128454673-db1d0fe8-0063-472a-9ac0-af39ea6e0f00.png" height="100">
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![version](https://img.shields.io/badge/Version-1.0.0-black)
+![ReactJS](https://img.shields.io/badge/ReactJS-17.0.2-61dafb)
+![NextJS](https://img.shields.io/badge/NextJS-11.0.1-black)
+![typescript](https://img.shields.io/badge/TypeScript-4.3.5-3178c6)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Development environment
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### IDE
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<img src="https://user-images.githubusercontent.com/56811005/85485907-0ca8b800-b5a0-11ea-96b1-dd6ad670c7ac.png" width="250" />
 
-## Learn More
+### Technologies
 
-To learn more about Next.js, take a look at the following resources:
+<img src="https://user-images.githubusercontent.com/56811005/128455331-3eade7a2-aba3-48f6-b66f-cd992bd3212d.png" width="700" >
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tests framework
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="https://user-images.githubusercontent.com/56811005/128603360-14b0ec36-9a8d-43f5-ae18-929d9edd7cf5.png" width="700" >
 
-## Deploy on Vercel
+### Linting and code formatter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="https://user-images.githubusercontent.com/56811005/126252695-0b44f690-6f08-44ea-ac5c-8118261df002.png" width="700" >
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Package Managers
+
+<img src="https://user-images.githubusercontent.com/56811005/103469831-cdc29e80-4d48-11eb-8897-4d1d0111297c.png" width="700" >
+
+### Version control systems
+
+<img src="https://user-images.githubusercontent.com/56811005/103469908-d5367780-4d49-11eb-8c56-db348eff1989.png" width="700" >
+
+> © 2021 Felip's Tudio. All rights reserved
