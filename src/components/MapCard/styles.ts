@@ -13,10 +13,13 @@ export const MapCardContainer = styled.div`
   box-shadow: ${({ theme }) => theme.shadow};
 `
 
-export const GoogleMapContainer = styled.div`
+export const MapContainer = styled.div`
   width: 100%;
   height: 350px;
   margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export const ItemContent = styled.div`
