@@ -10,7 +10,7 @@ export const DrawerContainer = styled.div`
 
 export const DrawerHeader = styled.header`
   width: 100%;
-  height: 50px;
+  min-height: 50px;
   display: flex;
   background-color: ${({ theme }) => theme.colors.background};
   box-shadow: ${({ theme }) => theme.shadow};
