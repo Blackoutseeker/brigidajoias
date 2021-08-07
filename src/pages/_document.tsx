@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <link
-            rel="preload"
+            rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           />
           <link rel="icon" href="/Logo.png" />
