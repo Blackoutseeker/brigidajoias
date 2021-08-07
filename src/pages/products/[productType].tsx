@@ -30,7 +30,7 @@ const ProductsPage: NextPage<ProductsPageProps> = ({
   products
 }) => {
   const renderProductsCards = () =>
-    products.map((product: Product, index: number) => (
+    products?.map((product: Product, index: number) => (
       <ProductCard
         key={index}
         title={product.title}
@@ -45,7 +45,7 @@ const ProductsPage: NextPage<ProductsPageProps> = ({
         <title>Brígida Joias - {productType}</title>
         <meta
           name="description"
-          content={`Procurando por ${productType.toLowerCase()}? Nós temos aqui! Em ouro, prata e Rommanel! Oferecemos garantia PERMANENTE de todos os produtos! Aceitamos pagamentos com cartão, transferência bancária e Pix!`}
+          content={`Procurando por ${productType?.toLowerCase()}? Nós temos aqui! Em ouro, prata e Rommanel! Oferecemos garantia PERMANENTE de todos os produtos! Aceitamos pagamentos com cartão, transferência bancária e Pix!`}
         />
       </Head>
       <Header />
