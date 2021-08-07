@@ -6,7 +6,7 @@
 
 </p>
 
-![version](https://img.shields.io/badge/Version-1.0.0-black)
+![version](https://img.shields.io/badge/Version-1.0.1-black)
 ![ReactJS](https://img.shields.io/badge/ReactJS-17.0.2-61dafb)
 ![NextJS](https://img.shields.io/badge/NextJS-11.0.1-black)
 ![typescript](https://img.shields.io/badge/TypeScript-4.3.5-3178c6)
@@ -19,7 +19,7 @@
 
 ### Technologies
 
-<img src="https://user-images.githubusercontent.com/56811005/128455331-3eade7a2-aba3-48f6-b66f-cd992bd3212d.png" width="700" >
+<img src="https://user-images.githubusercontent.com/56811005/128455331-3eade7a2-aba3-48f6-b66f-cd992bd3212d.png" width="486" >
 
 ### Tests framework
 
