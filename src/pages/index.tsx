@@ -34,6 +34,10 @@ const HomePage: NextPage<HomePageProps> = ({ allProducts }) => {
           name="description"
           content="Confira todas as nossas joias de alta qualidade, anéis, alianças, colares, pulseiras, brincos e muito mais! Temos joias de ouro, prata e Rommanel! Oferecemos garantia PERMANENTE de todos os produtos! Aceitamos pagamentos com cartão, transferência bancária e Pix!"
         />
+        <meta
+          name="keywords"
+          content="brigida, brígida, joias, brigida joias, brígida joias, ouro, prata, romannel, anel, aliança, colar, pulseira, brinco, pingentes, gargantilhas, correntes, acessórios, milagres, ceara, ceará"
+        />
       </Head>
       <Header />
       <NavBar />

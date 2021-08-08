@@ -35,6 +35,10 @@ const LocationPage: NextPage<LocationPageProps> = ({ sellers }) => {
           name="description"
           content="Contamos com nossa equipe de vendedoras para oferecer o melhor atendimento possível para nossos clientes!"
         />
+        <meta
+          name="keywords"
+          content="brigida, brígida, joias, brigida joias, brígida joias, ouro, prata, romannel, anel, aliança, colar, pulseira, brinco, pingentes, gargantilhas, correntes, acessórios, milagres, ceara, ceará, vendedoras"
+        />
       </Head>
       <Header />
       <NavBar />

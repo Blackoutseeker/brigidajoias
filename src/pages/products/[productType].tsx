@@ -47,6 +47,10 @@ const ProductsPage: NextPage<ProductsPageProps> = ({
           name="description"
           content={`Procurando por ${productType?.toLowerCase()}? Nós temos aqui! Em ouro, prata e Rommanel! Oferecemos garantia PERMANENTE de todos os produtos! Aceitamos pagamentos com cartão, transferência bancária e Pix!`}
         />
+        <meta
+          name="keywords"
+          content="brigida, brígida, joias, brigida joias, brígida joias, ouro, prata, romannel, anel, aliança, colar, pulseira, brinco, pingentes, gargantilhas, correntes, acessórios, milagres, ceara, ceará"
+        />
       </Head>
       <Header />
       <NavBar />

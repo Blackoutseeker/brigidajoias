@@ -18,6 +18,10 @@ const LocationPage: NextPage = () => {
           name="description"
           content={`Nossos serviços se encontram na cidade de Milagres no Ceará. Atendimento de ${CUSTOMER_SERIVCE_HOURS}`}
         />
+        <meta
+          name="keywords"
+          content="brigida, brígida, joias, brigida joias, brígida joias, ouro, prata, romannel, anel, aliança, colar, pulseira, brinco, pingentes, gargantilhas, correntes, acessórios, milagres, ceara, ceará"
+        />
       </Head>
       <Header />
       <NavBar />
