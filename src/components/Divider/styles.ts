@@ -9,7 +9,7 @@ interface Styles {
 
 export const DividerWrapper = styled.div`
   width: ${(styles: Styles) => styles.width};
-  height: ${(styles: Styles) => styles.height}px;
+  min-height: ${(styles: Styles) => styles.height}px;
   display: flex;
   align-items: center;
   margin: 0 ${(styles: Styles) => styles.marginHorizontal}px;
