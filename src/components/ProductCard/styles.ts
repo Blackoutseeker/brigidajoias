@@ -23,7 +23,7 @@ export const ImageContent = styled.div`
 
 export const ProductNameContent = styled.div`
   width: 220px;
-  height: 30px;
+  min-height: 72px;
   display: flex;
   flex: 1;
   margin: 20px 0;
