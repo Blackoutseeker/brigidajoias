@@ -11,13 +11,20 @@ import formatPriceToBrl from '@services/formatPrice'
 
 export interface Product {
   title: string
-  price: number
+  price: number | string
   imageUrl: string
 }
 
 const ProductCard: FC<Product> = props => {
   const { title, price, imageUrl } = props
-  const formattedPrice = formatPriceToBrl(price)
+
+  const handlePrice = (): string => {
+    if (typeof price === 'number') {
+      return formatPriceToBrl(price)
+    } else {
+      return price
+    }
+  }
 
   return (
     <CardContainer>
@@ -33,7 +40,7 @@ const ProductCard: FC<Product> = props => {
       <ProductNameContent>
         <ProductNameText>{title}</ProductNameText>
       </ProductNameContent>
-      <ProductPriceText>{formattedPrice}</ProductPriceText>
+      <ProductPriceText>{handlePrice()}</ProductPriceText>
     </CardContainer>
   )
 }
