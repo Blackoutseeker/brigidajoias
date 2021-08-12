@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /search
+Disallow: /products/Todos
 
 Sitemap: https://brigidajoias.com.br/api/sitemap
