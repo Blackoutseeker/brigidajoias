@@ -42,11 +42,28 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <link
-            rel="stylesheet prefetch"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-            type="text/css"
-            as="style"
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
           />
+          <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            media="print"
+            // @ts-ignore
+            onLoad="this.media='all'"
+          />
+          <noscript>
+            <link
+              rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            />
+          </noscript>
           <link rel="icon" href="/Logo.png" />
           <meta name="author" content="Felipe Pereira de Souza Silva" />
           <meta name="theme-color" content="#000" />
@@ -79,6 +96,11 @@ export default class MyDocument extends Document {
           `
             }}
           />
+          <script
+            data-ad-client="ca-pub-8834567925593683"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
         </Head>
         <body>
           <Main />
