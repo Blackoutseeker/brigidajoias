@@ -13,7 +13,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const productsPageRoute = PAGE_ROUTES.PRODUCTS
 
   const productsTypesLinks: SitemapParams[] = []
-  PRODUCTS_TYPES.forEach(productType => {
+  const removeRouteAllProducts: string[] = PRODUCTS_TYPES.filter(
+    productType => productType !== 'Todos'
+  )
+  removeRouteAllProducts.forEach(productType => {
     productsTypesLinks.push({
       url: `${productsPageRoute}/${productType}`,
       changefreq: 'daily',
